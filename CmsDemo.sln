@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.CmsKit.Web.Unified", "src\Volo.CmsKit.Web.Unified\Volo.CmsKit.Web.Unified.csproj", "{5760F1B6-CA1E-4E01-9C2E-A772551FB7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.CmsKit.Host.Shared", "src\Volo.CmsKit.Host.Shared\Volo.CmsKit.Host.Shared.csproj", "{C64BD041-9F4E-4B5F-85ED-DCE0E420B682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.CmsKit.HttpApi.Host", "src\Volo.CmsKit.HttpApi.Host\Volo.CmsKit.HttpApi.Host.csproj", "{D92083F3-749B-4D5D-A17C-88DC04D767C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.CmsKit.IdentityServer", "src\Volo.CmsKit.IdentityServer\Volo.CmsKit.IdentityServer.csproj", "{0D073BFF-0BCE-47CA-A545-77FA25D4BA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.CmsKit.Web.Host", "src\Volo.CmsKit.Web.Host\Volo.CmsKit.Web.Host.csproj", "{6CBA8837-04B5-4826-B967-1AEB24E274CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5760F1B6-CA1E-4E01-9C2E-A772551FB7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5760F1B6-CA1E-4E01-9C2E-A772551FB7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5760F1B6-CA1E-4E01-9C2E-A772551FB7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5760F1B6-CA1E-4E01-9C2E-A772551FB7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64BD041-9F4E-4B5F-85ED-DCE0E420B682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64BD041-9F4E-4B5F-85ED-DCE0E420B682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64BD041-9F4E-4B5F-85ED-DCE0E420B682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64BD041-9F4E-4B5F-85ED-DCE0E420B682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92083F3-749B-4D5D-A17C-88DC04D767C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92083F3-749B-4D5D-A17C-88DC04D767C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92083F3-749B-4D5D-A17C-88DC04D767C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92083F3-749B-4D5D-A17C-88DC04D767C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D073BFF-0BCE-47CA-A545-77FA25D4BA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D073BFF-0BCE-47CA-A545-77FA25D4BA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D073BFF-0BCE-47CA-A545-77FA25D4BA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D073BFF-0BCE-47CA-A545-77FA25D4BA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBA8837-04B5-4826-B967-1AEB24E274CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBA8837-04B5-4826-B967-1AEB24E274CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBA8837-04B5-4826-B967-1AEB24E274CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBA8837-04B5-4826-B967-1AEB24E274CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
