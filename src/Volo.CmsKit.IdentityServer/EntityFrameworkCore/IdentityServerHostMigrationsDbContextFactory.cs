@@ -14,7 +14,7 @@ public class IdentityServerHostMigrationsDbContextFactory : IDesignTimeDbContext
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<IdentityServerHostMigrationsDbContext>()
-            .UseSqlServer(configuration.GetConnectionString("Default"));
+            .UseNpgsql(configuration.GetConnectionString("Npg"));
 
         return new IdentityServerHostMigrationsDbContext(builder.Options);
     }

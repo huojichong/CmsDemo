@@ -8,26 +8,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    
     <PackageReference Include="Serilog.Sinks.File" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="2.1.0" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.6.24" />
     <PackageReference Include="Swashbuckle.AspNetCore" />
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5"/>
+
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
     
-    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer"/>
+    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic"/>
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc"/>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy"/>
-    <PackageReference Include="Volo.Abp.Autofac"/>
+    <PackageReference Include="Volo.Abp.Autofac" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis"/>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer"/>
     <PackageReference Include="Volo.Abp.AspNetCore.Serilog"/>
-    <PackageReference Include="Volo.Abp.Account.Web.IdentityServer"/>
+    <PackageReference Include="Volo.Abp.Account.Web.IdentityServer" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.Account.Application"/>
     <PackageReference Include="Volo.Abp.Account.HttpApi"/>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore"/>
     <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore"/>
-    <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore"/>
+    <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore"/>
     <PackageReference Include="Volo.Abp.PermissionManagement.Application"/>
     <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi"/>
@@ -41,7 +48,7 @@
     <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore"/>
     <PackageReference Include="Volo.Abp.TenantManagement.Application"/>
     <PackageReference Include="Volo.Abp.TenantManagement.HttpApi"/>
-    <PackageReference Include="Volo.CmsKit.Application.Contracts"/>
+    <PackageReference Include="Volo.CmsKit.Application.Contracts" Version="9.1.3" />
     <ProjectReference Include="..\Volo.CmsKit.Host.Shared\Volo.CmsKit.Host.Shared.csproj"/>
   </ItemGroup>
 

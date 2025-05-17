@@ -11,28 +11,28 @@
     <PackageReference Include="Serilog.AspNetCore" />
     <PackageReference Include="Serilog.Sinks.File" />
     <PackageReference Include="Swashbuckle.AspNetCore" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="9.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
-    
+    <PackageReference Include="Microsoft.OpenApi" Version="1.6.24" />
     <PackageReference Include="Volo.Abp.AspNetCore.Serilog" />
-    <PackageReference Include="Volo.Abp.Autofac" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.Client" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.OpenIdConnect" />
-    <PackageReference Include="Volo.Abp.Http.Client.IdentityModel.Web" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.Client" Version="9.1.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.OpenIdConnect" Version="9.1.3" />
+    <PackageReference Include="Volo.Abp.Http.Client.IdentityModel.Web" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" />
     <PackageReference Include="Volo.Abp.Identity.Web" />
-    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.FeatureManagement.Web" />
-    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="9.1.3" />
     <PackageReference Include="Volo.Abp.TenantManagement.Web" />
-    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi.Client" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="9.1.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="9.1.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.CmsKit.Web\Volo.CmsKit.Web" />
-    <PackageReference Include="Volo.CmsKit.HttpApi.Client\Volo.CmsKit.HttpApi.Client" />
+    <PackageReference Include="Volo.CmsKit.Web" />
+    <PackageReference Include="Volo.CmsKit.HttpApi.Client" Version="9.1.3" />
     <ProjectReference Include="..\Volo.CmsKit.Host.Shared\Volo.CmsKit.Host.Shared.csproj" />
   </ItemGroup>
 
